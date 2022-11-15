@@ -3,7 +3,7 @@ groff
 tree
 vim
 libgc-dev
-libgc1
+libgc1c2
 gmt
 gmt-dcw
 gmt-gshhg
@@ -12,9 +12,6 @@ netcdf-bin
 gdal-bin
 openmpi-bin
 grass
-ffmpeg
-pip
-anaconda
 libhdf5-dev
 ghostscript
 gfortran
