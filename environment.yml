@@ -73,6 +73,7 @@ dependencies:
   - pycamhd
   - pydap
   - pygeos
+  - pyproj
   - pystac
   - pystac-client
   - python-blosc
