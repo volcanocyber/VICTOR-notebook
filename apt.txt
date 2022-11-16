@@ -4,6 +4,7 @@ tree
 vim
 libgc-dev
 libgc1c2
+libgdal-dev
 openmpi-bin
 grass
 ghostscript
