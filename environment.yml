@@ -109,7 +109,6 @@ dependencies:
   - xarrayutils
   - xarray_leaflet
   - xarray-spatial
-  - xcape
   - xesmf
   - xgcm
   - xhistogram
