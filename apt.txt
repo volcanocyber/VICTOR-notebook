@@ -4,15 +4,7 @@ tree
 vim
 libgc-dev
 libgc1c2
-gmt
-gmt-dcw
-gmt-gshhg
-paraview
-netcdf-bin
-gdal-bin
 openmpi-bin
 grass
-libhdf5-dev
 ghostscript
-gfortran
 build-essential

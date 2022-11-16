@@ -25,14 +25,21 @@ dependencies:
   - fsspec
   - gcm_filters
   - gcsfs
+  - gdal
   - gh
+  - ghostscript
   - geocube
   - geogif
   - geopandas
   - geopy
   - geoviews-core
+  - gfortran
   - git-lfs
+  - gmt
+  - dcw-gmt
+  - gshhg-gmt
   - gsw
+  - hdf5
   - h5netcdf
   - h5py
   - holoviews
@@ -46,9 +53,13 @@ dependencies:
   - ipython
   - ipytree
   - ipywidgets
+  - jupyterhub-singleuser>=3.0,<4.0
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - kerchunk
+  - libgdal
+  - libnetcdf
+  - libgfortran-ng
   - lxml
   - lz4
   - matplotlib-base
@@ -63,6 +74,7 @@ dependencies:
   - panel
   - parcels
   - param!=1.11.0
+  - paraview
   - pip
   - pip:
     - cdsapi
