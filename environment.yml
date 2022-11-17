@@ -26,8 +26,6 @@ dependencies:
   - fsspec
   - gcm_filters
   - gcsfs
-  - gdal>=3.4.1
-  - libgdal
   - gh
   - ghostscript
   - geocube
