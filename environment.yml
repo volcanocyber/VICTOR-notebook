@@ -57,9 +57,9 @@ dependencies:
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - kerchunk
-  - libgdal
   - libnetcdf
   - libgfortran-ng
+  - libxcb
   - lxml
   - lz4
   - matplotlib-base
@@ -70,6 +70,7 @@ dependencies:
   - netcdf4
   - numcodecs
   - numpy
+  - opencv
   - pandas
   - panel
   - parcels
