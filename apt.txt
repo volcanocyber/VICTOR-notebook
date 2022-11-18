@@ -4,8 +4,6 @@ tree
 vim
 libgc-dev
 libgc1c2
-gdal-bin
-libgdal-dev
 libopengl0
 openmpi-bin
 grass

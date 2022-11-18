@@ -11,6 +11,7 @@ dependencies:
   - boto3
   - bottleneck
   - cartopy >= 0.20.0
+  - gdal
   - cfgrib
   - ciso
   - colorama
@@ -121,3 +122,4 @@ dependencies:
   - zarr
   - gh-scoped-creds
   - jupyterlab-git
+  - conda-tree
