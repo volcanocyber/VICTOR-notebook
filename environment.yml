@@ -93,7 +93,7 @@ dependencies:
   - python-blosc
   - python-gist
   - python-graphviz
-  - python=3.9
+  - python=3.10
   - rasterio
   - rechunker
   - rio-cogeo
