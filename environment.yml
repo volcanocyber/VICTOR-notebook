@@ -123,4 +123,3 @@ dependencies:
   - zarr
   - gh-scoped-creds
   - jupyterlab-git
-  - conda-tree
