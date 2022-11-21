@@ -60,6 +60,7 @@ dependencies:
   - kerchunk
   - libnetcdf
   - libgfortran-ng
+  - libgdal=3.4.3
   - libxcb
   - lxml
   - lz4
