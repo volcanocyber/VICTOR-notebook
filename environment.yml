@@ -11,7 +11,7 @@ dependencies:
   - boto3
   - bottleneck
   - cartopy >= 0.20.0
-  - gdal
+  - gdal=3.4.3
   - cfgrib
   - ciso
   - colorama
