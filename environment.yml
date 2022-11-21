@@ -10,6 +10,7 @@ dependencies:
   - awscli
   - boto3
   - bottleneck
+  - bdw-gc
   - cartopy >= 0.20.0
   - gdal=3.4.3
   - cfgrib
