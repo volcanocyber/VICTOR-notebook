@@ -12,7 +12,6 @@ dependencies:
   - bottleneck
   - bdw-gc
   - cartopy >= 0.20.0
-  - gdal=3.4.3
   - cfgrib
   - ciso
   - colorama
@@ -61,12 +60,12 @@ dependencies:
   - kerchunk
   - libnetcdf
   - libgfortran-ng
-  - libgdal=3.4.3
   - libxcb
   - lxml
   - lz4
   - matplotlib-base
   - metpy
+  - moviepy
   - nb_conda_kernels
   - nbstripout
   - nc-time-axis

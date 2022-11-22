@@ -6,6 +6,8 @@ libgc-dev
 libgc1c2
 libopengl0
 openmpi-bin
+libgdal-dev
+gdal-bin
 grass
 ghostscript
 build-essential
