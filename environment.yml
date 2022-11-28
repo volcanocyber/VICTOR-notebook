@@ -37,6 +37,8 @@ dependencies:
   - gfortran
   - git-lfs
   - gmt
+  - gdal=3.4.1
+  - libgdal=3.4.1
   - dcw-gmt
   - gshhg-gmt
   - gsw
