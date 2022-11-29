@@ -64,6 +64,7 @@ dependencies:
   - libxcb
   - lxml
   - lz4
+  - make
   - matplotlib-base
   - metpy
   - moviepy

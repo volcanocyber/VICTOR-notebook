@@ -2,8 +2,6 @@ git
 groff
 tree
 vim
-libgc-dev
-libgc1c2
 libopengl0
 openmpi-bin
 grass
