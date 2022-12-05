@@ -54,7 +54,6 @@ dependencies:
   - ipytree
   - ipywidgets
   - jupyterhub-singleuser>=3.0,<4.0
-  - jupyter_contrib_nbextensions
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - kerchunk
@@ -82,6 +81,7 @@ dependencies:
   - pip:
     - cdsapi
     - utm
+    - jupyterlab-s3-browser
   - pop-tools
   - prefect=0.15.13
   - pyarrow
@@ -94,6 +94,7 @@ dependencies:
   - python-blosc
   - python-gist
   - python-graphviz
+  - python-lsp-server
   - python=3.10
   - rasterio
   - rechunker
