@@ -70,6 +70,7 @@ dependencies:
   - nc-time-axis
   - netcdf4
   - numcodecs
+  - nodejs
   - numpy
   - opencv
   - pandas
@@ -77,6 +78,7 @@ dependencies:
   - parcels
   - param!=1.11.0
   - paraview
+  - pillow
   - pip
   - pip:
     - cdsapi
