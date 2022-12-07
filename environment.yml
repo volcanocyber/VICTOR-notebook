@@ -112,6 +112,7 @@ dependencies:
   - stackstac
   - tiledb-py
   - timezonefinder
+  - vtk
   - xarray
   - xarrayutils
   - xarray_leaflet
