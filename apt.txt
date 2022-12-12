@@ -1,13 +1,29 @@
+# command line goodies
 git
 groff
 tree
 vim
+
+# Libraries needed for models
+gdal-bin
 libgc-dev
 libgc1c2
-libopengl0
-openmpi-bin
 libgdal-dev
-gdal-bin
+libopengl0
 grass
+libgl1-mesa-glx
+
+# various other niceties
+openmpi-bin
 ghostscript
 build-essential
+
+# desktop usage libraries
+dbus-x11
+xorg
+xubuntu-icon-theme
+xfce4
+xfce4-goodies
+xclip
+xsel
+firefox
