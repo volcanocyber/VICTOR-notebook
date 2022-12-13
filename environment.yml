@@ -136,4 +136,5 @@ dependencies:
   - python-lsp-server
   - pyopencl
   - timezonefinder
+  - websockify>=0.10
   - xpublish
