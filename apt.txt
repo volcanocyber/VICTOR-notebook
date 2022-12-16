@@ -17,6 +17,7 @@ libgl1-mesa-glx
 openmpi-bin
 ghostscript
 build-essential
+libgfortran5
 
 # desktop usage libraries
 dbus-x11
