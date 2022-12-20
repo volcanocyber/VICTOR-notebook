@@ -52,7 +52,6 @@ dependencies:
   - earthdata
   - erddapy
   - esmpy
-  - fastjmd95
   - gcm_filters
   - geocube
   - gsw
@@ -78,9 +77,7 @@ dependencies:
   - netcdf4
 #Distributed computing and ML
   - dask-ml
-  - flox
   - opencv
-  - prefect=0.15.13
   - rechunker
   - scikit-image
   - scikit-learn
@@ -92,25 +89,19 @@ dependencies:
   - geogif
   - geoviews-core
   - gmt
-  - dcw-gmt
-  - gshhg-gmt
   - holoviews
   - hvplot
   - matplotlib-base
   - panel
   - paraview
-  - python-graphviz
   - qgis
   - rasterio
   - rio-cogeo
   - rioxarray
-  - xhistogram
 #Miscellaneous
-  - colorama
   - eofs
   - fsspec
   - gh
-  - ghostscript
   - gfortran
   - git-lfs
   - kerchunk
@@ -137,4 +128,3 @@ dependencies:
   - pyopencl
   - timezonefinder
   - websockify>=0.10
-  - xpublish
