@@ -2,128 +2,127 @@ channels:
   - conda-forge
 
 dependencies:
-#core libraries to run the machine
-  - jupyterhub-singleuser>=3.0,<4.0
   - jupyter_contrib_nbextensions==0.5.1
-  - jupyter-panel-proxy
-  - jupyter-resource-usage
-  - python=3.10
-  - gh-scoped-creds
-#Jupyterlab tools
-  - jupyterlab-git
+  - adlfs
+  - argopy
+  - awscli
+  - boto3
+  - bottleneck
+  - bdw-gc
+  - cartopy >= 0.20.0
+  - cfgrib
+  - ciso
+  - colorama
+  - dask-ml
+  - datashader
+  - descartes
+  - earthdata
+  - eofs
+  - erddapy
+  - esmpy
+  - fastjmd95
+  - flox
+  - fsspec
+  - gcm_filters
+  - gcsfs
+  - gh
+  - geocube
+  - geogif
+  - geopandas
+  - geopy
+  - geoviews-core
+  - gfortran
+  - git-lfs
+  - gmt
+  - dcw-gmt
+  - gshhg-gmt
+  - gsw
+  - hdf5
+  - h5netcdf
+  - h5py
+  - holoviews
+  - hvplot
+  - intake
+  - intake-esm
+  - intake-geopandas
+  - intake-stac
+  - intake-xarray
   - ipyleaflet
   - ipython
   - ipympl
   - ipytree
   - ipywidgets
-  - nb_conda_kernels
-  - nbstripout
-#Scientific libraries
-  - bottleneck
-  - intake
-  - geopandas
-  - geopy
-  - intake-xarray
-  - numpy
-  - pandas
-  - parcels
-  - pillow
-  - scipy
-  - seaborn
-  - sparse
-  - xarray
-  - xarrayutils
-  - xarray_leaflet
-  - xgcm
-  - xmip
-  - xrft
-  - zarr
-#Remote storage access
-  - adlfs
-  - awscli
-  - boto3
-  - gcsfs
-  - s3fs>0.5
-  - tiledb-py
-#geoscience libraries
-  - argopy
-  - ciso
-  - earthdata
-  - erddapy
-  - esmpy
-  - gcm_filters
-  - geocube
-  - gsw
-  - intake-esm
-  - intake-geopandas
-  - intake-stac
-  - metpy
-  - pygeos
-  - pyproj
-  - pystac
-  - pystac-client
-  - satpy
-  - xarray-spatial
-  - xesmf
-  - xskillscore
-#file format/management
-  - cfgrib
-  - hdf5
-  - h5netcdf
-  - h5py
-  - libnetcdf
-  - nc-time-axis
-  - netcdf4
-#Distributed computing and ML
-  - dask-ml
-  - opencv
-  - rechunker
-  - scikit-image
-  - scikit-learn
-  - stackstac
-#Visualization packages
-  - datashader
-  - descartes
-  - cartopy >= 0.20.0
-  - geogif
-  - geoviews-core
-  - gmt
-  - holoviews
-  - hvplot
-  - matplotlib-base
-  - panel
-  - paraview
-  - qgis
-  - rasterio
-  - rio-cogeo
-  - rioxarray
-#Miscellaneous
-  - eofs
-  - fsspec
-  - gh
-  - gfortran
-  - git-lfs
+  - jupyterhub-singleuser>=3.0,<4.0
+  - jupyter-panel-proxy
+  - jupyter-resource-usage
   - kerchunk
+  - libnetcdf
   - libgfortran-ng
   - libxcb
   - lxml
   - lz4
+  - matplotlib-base
+  - metpy
   - moviepy
+  - nb_conda_kernels
+  - nbstripout
+  - nc-time-axis
+  - netcdf4
   - numcodecs
   - nodejs
+  - numpy
+  - opencv
+  - pandas
+  - panel
+  - parcels
   - param!=1.11.0
+  - paraview
+  - pillow
   - pip
   - pip:
     - cdsapi
     - utm
     - jupyterlab-s3-browser
-    - jupyter-desktop-server==0.1.3
+  - pop-tools
+  - prefect=0.15.13
   - pyarrow
   - pycamhd
   - pydap
+  - pygeos
+  - pyproj
+  - pystac
+  - pystac-client
   - python-blosc
   - python-gist
+  - python-graphviz
   - python-lsp-server
-  - pyopencl
+  - python=3.10
+  - rasterio
+  - rechunker
+  - rio-cogeo
+  - rioxarray
+  - s3fs>0.5
+  - satpy
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - seaborn
+  - sparse
+  - stackstac
+  - tiledb-py
   - timezonefinder
-  - websockify>=0.10
+  - xarray
+  - xarrayutils
+  - xarray_leaflet
+  - xarray-spatial
+  - xesmf
+  - xgcm
+  - xhistogram
+  - xmip
+  - xmitgcm
+  - xpublish
+  - xrft
+  - xskillscore
+  - zarr
+  - gh-scoped-creds
+  - jupyterlab-git
