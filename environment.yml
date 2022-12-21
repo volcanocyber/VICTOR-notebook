@@ -36,7 +36,6 @@ dependencies:
   - xarray_leaflet
   - xgcm
   - xmip
-  - xmitgcm
   - xrft
   - zarr
 #Remote storage access
