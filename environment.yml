@@ -26,7 +26,6 @@ dependencies:
   - gcm_filters
   - gcsfs
   - gh
-  - ghostscript
   - geocube
   - geogif
   - geopandas

@@ -11,3 +11,4 @@ gdal-bin
 grass
 ghostscript
 build-essential
+libgfortran5
