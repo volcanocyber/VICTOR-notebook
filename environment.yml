@@ -127,3 +127,5 @@ dependencies:
   - zarr
   - gh-scoped-creds
   - jupyterlab-git
+  - websockify
+  - qgis
