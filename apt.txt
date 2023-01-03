@@ -12,3 +12,11 @@ grass
 ghostscript
 build-essential
 libgfortran5
+libgl1-mesa-glx
+dbus-x11
+xorg
+xubuntu-icon-theme
+xfce4
+xfce4-goodies
+xclip
+xsel
