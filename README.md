@@ -1,6 +1,6 @@
 # VICTOR hub Image Template :paperclip:
 
-This is the VICTOR image template for our hub hosted by 2i2c.
+This is the VICTOR image template for our hub hosted by 2i2c. Our machines host a number of computational models for various uses in the volcanology community. This image supports both conda (python) and R interactable coding environemnts, and will soon support a set of geoscience modeling tools on a virtual desktop, including QGIS and and Paraview. If further questions arise, please contact *victor@ldeo.columbia.edu* for additional project information and machine specific issues, and *support@2i2c.org* for platform-wide queries. Below, a brief outline of the technology behind this project, as well as some key links.
 
 ### In-depth guide
 
@@ -9,7 +9,7 @@ Checkout the 2i2c docs for an in-depth guide on how to use this template reposit
 ## About this template repository :information_source:
 
 This template repository enables [jupyterhub/repo2docker-action](https://github.com/jupyterhub/repo2docker-action).
-This GitHub action builds a Docker image using the contents of this repo and pushes it to the [Quay.io](https://quay.io/) registry.
+This GitHub action builds a Docker image using the contents of this repo and pushes it our the [Quay.io](https://quay.io/repository/volcanocyber/victor-notebook) repository.
 
 ### The environment
 
