@@ -1,6 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Paraview
-Exec=paraview
-Icon=/srv/conda/envs/notebook/share/icons/hicolor/96x96/apps/paraview.png

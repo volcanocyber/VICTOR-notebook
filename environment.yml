@@ -129,3 +129,4 @@ dependencies:
   - jupyterlab-git
   - websockify
   - qgis
+  - bokeh
