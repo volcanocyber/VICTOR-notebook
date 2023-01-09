@@ -3,7 +3,7 @@ groff
 tree
 vim
 libgc-dev
-libgc1c2
+libgc1
 libopengl0
 openmpi-bin
 libgdal-dev
