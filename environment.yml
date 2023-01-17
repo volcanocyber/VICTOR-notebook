@@ -131,4 +131,5 @@ dependencies:
   - qgis
   - bokeh
   - dask
-  - dask-labextention
+  - dask-labextension
+  - pyvista
