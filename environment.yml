@@ -130,3 +130,5 @@ dependencies:
   - websockify
   - qgis
   - bokeh
+  - dask
+  - dask-labextention
