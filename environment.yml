@@ -133,3 +133,6 @@ dependencies:
   - dask
   - dask-labextension
   - pyvista
+  - vtk
+  - imageio
+  - appdirs
