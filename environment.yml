@@ -9,7 +9,7 @@ dependencies:
   - boto3
   - bottleneck
   - bdw-gc
-  - cartopy >= 0.20.0
+  - cartopy
   - cfgrib
   - ciso
   - colorama
