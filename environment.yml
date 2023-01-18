@@ -13,7 +13,9 @@ dependencies:
   - cfgrib
   - ciso
   - colorama
+  - dask
   - dask-ml
+  - dask-labextension
   - datashader
   - descartes
   - earthdata
@@ -76,7 +78,6 @@ dependencies:
   - panel
   - parcels
   - param!=1.11.0
-  - paraview
   - pillow
   - pip
   - pip:
@@ -130,8 +131,6 @@ dependencies:
   - websockify
   - qgis
   - bokeh
-  - dask
-  - dask-labextension
   - vtk
   - pyvista
   - imageio
