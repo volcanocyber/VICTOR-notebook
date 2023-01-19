@@ -134,3 +134,5 @@ dependencies:
   - vtk
   - pyvista
   - imageio
+  - ipyvtklink
+  - meshplot
