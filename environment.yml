@@ -134,4 +134,4 @@ dependencies:
   - vtk
   - imageio
   - pytorch
-  - imfit
+  - lmfit
