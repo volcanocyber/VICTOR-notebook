@@ -132,6 +132,6 @@ dependencies:
   - qgis
   - bokeh
   - vtk
-  - pyvista
   - imageio
   - pytorch
+  - imfit
