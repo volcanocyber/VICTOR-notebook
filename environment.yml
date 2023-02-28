@@ -1,5 +1,6 @@
 channels:
   - conda-forge
+  - esri
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
@@ -135,6 +136,5 @@ dependencies:
   - imageio
   - pytorch
   - lmfit
-  - esri
   - arcgis
   - firefox
