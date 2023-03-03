@@ -1,6 +1,5 @@
 channels:
   - conda-forge
-  - esri
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
@@ -86,6 +85,7 @@ dependencies:
     - utm
     - jupyterlab-s3-browser
     - jupyter-desktop-server==0.1.3
+    - geojsoncontour
   - pop-tools
   - prefect=0.15.13
   - pyarrow
@@ -136,5 +136,4 @@ dependencies:
   - imageio
   - pytorch
   - lmfit
-  - arcgis
   - firefox
