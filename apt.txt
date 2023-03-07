@@ -20,3 +20,4 @@ xfce4
 xfce4-goodies
 xclip
 xsel
+chromium-browser
