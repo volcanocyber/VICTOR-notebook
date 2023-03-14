@@ -21,3 +21,4 @@ xfce4-goodies
 xclip
 xsel
 chromium-browser
+libasound2
