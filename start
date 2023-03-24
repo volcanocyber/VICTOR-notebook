@@ -7,7 +7,8 @@ mkdir -p $HOME/Desktop
 cp $REPO_DIR/*.desktop $HOME/Desktop/
 
 # Set any environment variables here
-# These are inherited by all processes, *except* RStudio
+# These are inherited by all processes, *except* RStudio{
+export PATH=/home/jovyan/shared/Executables:${PATH}
 
 # Tell applications where to open desktop apps - this allows notebooks to
 # pop open GUIs
