@@ -98,7 +98,6 @@ dependencies:
   - python-blosc
   - python-gist
   - python-graphviz
-  - python-lsp-server
   - python=3.10
   - rasterio
   - rechunker
@@ -138,3 +137,4 @@ dependencies:
   - lmfit
   - firefox
   - jupyterlab-lsp
+  - jedi-language-server
