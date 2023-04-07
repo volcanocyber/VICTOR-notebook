@@ -1,2 +1,5 @@
 #!/bin/bash
 jupyter serverextension enable --py jupyterlab_s3_browser
+wget -O ~/FirefoxSetup.tar.bz2 "https://download.mozilla.org/?product=firefox-latest&os=linux64" -P /tmp
+sudo tar xjf ~/FirefoxSetup.tar.bz2 -C /srv/repo
+sudo ln -s /srv/repo/firefox /usr/lib/firefox/firefox

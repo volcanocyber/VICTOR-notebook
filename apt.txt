@@ -20,7 +20,6 @@ xfce4
 xfce4-goodies
 xclip
 xsel
-chromium-browser
 libasound2
 libdbus-glib-1-2
 libpci-dev
