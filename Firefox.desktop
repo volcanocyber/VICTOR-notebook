@@ -2,5 +2,5 @@
 Version=1.0
 Type=Application
 Name=Firefox
-Exec=/srv/firefox/firefox
-Icon=/srv/firefox/browser/chrome/icon/default/default64.png
+Exec=/srv/repo/firefox/firefox
+Icon=/srv/repo/firefox/browser/chrome/icon/default/default64.png
