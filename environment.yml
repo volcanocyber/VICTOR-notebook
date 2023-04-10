@@ -137,3 +137,4 @@ dependencies:
   - lmfit
   - jupyterlab-lsp
   - jedi-language-server
+  - jupyter_app_launcher
