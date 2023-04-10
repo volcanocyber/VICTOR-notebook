@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Exec=/opt/firefox/firefox
+Icon=/opt/firefox/browser/chrome/icon/default/default64.png

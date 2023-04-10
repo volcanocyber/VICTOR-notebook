@@ -135,6 +135,5 @@ dependencies:
   - imageio
   - pytorch
   - lmfit
-  - firefox
   - jupyterlab-lsp
   - jedi-language-server
