@@ -138,4 +138,3 @@ dependencies:
   - jupyterlab-lsp
   - jedi-language-server
   - jupyter_app_launcher
-  - qt=5.15.3
