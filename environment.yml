@@ -5,7 +5,6 @@ dependencies:
   - jupyter_contrib_nbextensions==0.5.1
   - adlfs
   - argopy
-  - awscli
   - boto3
   - bottleneck
   - bdw-gc
