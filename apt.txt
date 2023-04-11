@@ -26,7 +26,6 @@ libxt-dev
 libopenmpi-dev
 libtbb-dev
 ninja-build
-paraview
 libasound2
 libdbus-glib-1-2
 libpci-dev
