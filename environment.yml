@@ -126,7 +126,6 @@ dependencies:
   - xrft
   - xskillscore
   - zarr
-  - gh-scoped-creds
   - jupyterlab-git
   - websockify
   - qgis
