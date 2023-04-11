@@ -5,6 +5,7 @@ dependencies:
   - jupyter_contrib_nbextensions==0.5.1
   - adlfs
   - argopy
+  - awscli
   - boto3
   - bottleneck
   - bdw-gc
@@ -125,6 +126,7 @@ dependencies:
   - xrft
   - xskillscore
   - zarr
+  - gh-scoped-creds
   - jupyterlab-git
   - websockify
   - qgis
@@ -136,4 +138,4 @@ dependencies:
   - jupyterlab-lsp
   - jedi-language-server
   - jupyter_app_launcher
-  - paraview
+  - shapely
