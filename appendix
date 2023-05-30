@@ -1,0 +1,9 @@
+# Appendix https://github.com/jupyterhub/repo2docker-action#optional-input
+# Use Mozilla Firefox PPA
+# https://ubuntuhandbook.org/index.php/2022/04/install-firefox-deb-ubuntu-22-04/
+RUN apt-get autoremove --purge snapd > /dev/null
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 0AB215679C571D1C8325275B9BDB3D89CE49EC21
+COPY mozilla-firefox.apt.preferences /etc/apt/preferences.d/mozilla-firefox
+COPY mozillateam-ubuntu-ppa-jammy.list /etc/apt/sources.list.d
+RUN apt-get update -qq --yes && apt-get install --yes -t 'o=LP-PPA-mozillateam' --yes firefox
+

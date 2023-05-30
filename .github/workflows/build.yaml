@@ -41,6 +41,7 @@ jobs:
         IMAGE_NAME: "volcanocyber/victor-notebook"
         REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image=docker.io/library/buildpack-deps:jammy
         FORCE_REPO2DOCKER_VERSION: git+https://github.com/yuvipanda/repo2docker@feat/new-base
+        APPENDIX_FILE: "appendix"
 
 
     # Lets us monitor disks getting full as images get bigger over time
