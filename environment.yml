@@ -139,3 +139,4 @@ dependencies:
   - jedi-language-server
   - shapely
   - numexpr
+  - paraview
