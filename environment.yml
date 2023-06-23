@@ -133,7 +133,6 @@ dependencies:
   - bokeh
   - vtk
   - imageio
-  - pytorch
   - lmfit
   - jupyterlab-lsp
   - jedi-language-server
