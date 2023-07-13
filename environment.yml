@@ -2,10 +2,8 @@ channels:
   - conda-forge
 
 dependencies:
-  - jupyter_contrib_nbextensions==0.5.1
   - adlfs
   - argopy
-  - awscli
   - boto3
   - bottleneck
   - bdw-gc
@@ -54,7 +52,7 @@ dependencies:
   - ipympl
   - ipytree
   - ipywidgets
-  - jupyterhub-singleuser>=3.0,<4.0
+  - jupyterhub-singleuser
   - jupyter-panel-proxy
   - jupyter-resource-usage
   - kerchunk
@@ -98,7 +96,6 @@ dependencies:
   - python-blosc
   - python-gist
   - python-graphviz
-  - python=3.10
   - rasterio
   - rechunker
   - rio-cogeo
@@ -134,8 +131,3 @@ dependencies:
   - vtk
   - imageio
   - lmfit
-  - jupyterlab-lsp
-  - jedi-language-server
-  - shapely
-  - numexpr
-  - paraview
