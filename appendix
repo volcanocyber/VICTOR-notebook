@@ -1,0 +1,7 @@
+COPY mozilla-firefox.apt.preferences /etc/apt/preferences.d/mozilla-firefox
+RUN add-apt-repository ppa:mozillateam/ppa \
+    && apt-get update -qq --yes \
+    && apt-get install -qq --yes -t 'o=LP-PPA-mozillateam' --yes firefox \
+    && rm -rf /var/lib/apt/lists/*
+
+
