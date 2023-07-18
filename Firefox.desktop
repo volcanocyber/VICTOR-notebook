@@ -1,6 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Firefox
-Exec=/srv/repo/firefox/firefox
-Icon=/srv/repo/firefox/browser/chrome/icon/default/default64.png
