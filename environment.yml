@@ -131,3 +131,7 @@ dependencies:
   - vtk
   - imageio
   - lmfit
+  - jupyterlab-lsp
+  - python-lsp-server
+  - shapely
+  - numexpr
