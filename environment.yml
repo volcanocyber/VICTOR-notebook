@@ -82,7 +82,7 @@ dependencies:
     - cdsapi
     - utm
     - jupyterlab-s3-browser
-    - git+https://github.com/jupyterhub/jupyter-remote-desktop-proxy.git@main
+    - jupyter-remote-desktop-proxy.git==1.1.0
     - geojsoncontour
   - pop-tools
   - prefect=0.15.13
