@@ -135,4 +135,3 @@ dependencies:
   - python-lsp-server
   - shapely
   - numexpr
-  - paraview
