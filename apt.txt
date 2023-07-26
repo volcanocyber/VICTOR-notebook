@@ -31,4 +31,3 @@ libdbus-glib-1-2
 libpci-dev
 software-properties-common
 tigervnc-standalone-server
-paraview
