@@ -84,6 +84,8 @@ dependencies:
     - jupyterlab-s3-browser
     - git+https://github.com/jupyterhub/jupyter-remote-desktop-proxy.git@main
     - geojsoncontour
+    - ngsolve
+    - webgui_jupyter_widgets
   - pop-tools
   - prefect=0.15.13
   - pyarrow
