@@ -138,3 +138,5 @@ dependencies:
   - shapely
   - numexpr
   - openpiv
+  - trimesh
+  - simplekml

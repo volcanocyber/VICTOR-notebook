@@ -1,0 +1,40 @@
+name: UpdateMembers
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"  # Nightly at midnight
+
+jobs:
+  update-members:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Set Up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+
+      - name: Enable Pip Cache
+        uses: actions/cache@v1
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/.github/scripts/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Dependencies
+        run: |
+          python --version
+          pip install -r .github/scripts/requirements.txt
+
+      - name: Decrypt Gdrive Service Account Secret
+        env:
+          LARGE_SECRET_PASSPHRASE: ${{ secrets.GPG_SECRET }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd .github/scripts
+          ./decrypt_secret.sh
+          python addMembers.py
