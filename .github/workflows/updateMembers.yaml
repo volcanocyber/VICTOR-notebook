@@ -36,5 +36,5 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
           cd .github/scripts
-          ./decrypt_secret.sh
+          sh decrypt_secret.sh
           python addMembers.py

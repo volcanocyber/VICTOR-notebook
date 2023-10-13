@@ -140,3 +140,7 @@ dependencies:
   - openpiv
   - trimesh
   - simplekml
+  - scikit-fmm
+  - alphashape
+  - getfem
+  - tk
