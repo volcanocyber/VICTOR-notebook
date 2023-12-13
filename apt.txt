@@ -33,3 +33,4 @@ software-properties-common
 tigervnc-standalone-server
 libtiff5-dev
 libtbb-2
+paraview
