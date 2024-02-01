@@ -33,5 +33,4 @@ software-properties-common
 tigervnc-standalone-server
 libtiff5-dev
 libtbb2
-paraview
-qt5-style-plugins
+getfem++

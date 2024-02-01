@@ -3,31 +3,27 @@ channels:
 
 dependencies:
   - adlfs
-  - argopy
   - boto3
   - bottleneck
   - bdw-gc
   - cartopy
   - cfgrib
-  - ciso
   - colorama
   - dask
   - dask-ml
   - dask-labextension
   - datashader
   - descartes
-  - earthdata
+  - earthaccess
   - eofs
   - erddapy
   - esmpy
-  - fastjmd95
   - flox
   - fsspec
   - gcm_filters
   - gcsfs
   - gh
   - geocube
-  - geogif
   - geopandas
   - geopy
   - geoviews-core
@@ -36,7 +32,6 @@ dependencies:
   - gmt
   - dcw-gmt
   - gshhg-gmt
-  - gsw
   - hdf5
   - h5netcdf
   - h5py
@@ -60,7 +55,6 @@ dependencies:
   - libgfortran-ng
   - libxcb
   - lxml
-  - lz4
   - matplotlib-base
   - metpy
   - moviepy
@@ -86,10 +80,8 @@ dependencies:
     - geojsoncontour
     - ngsolve
     - webgui_jupyter_widgets
-  - pop-tools
-  - prefect=0.15.13
+  - prefect
   - pyarrow
-  - pycamhd
   - pydap
   - pygeos
   - pyproj
@@ -99,7 +91,6 @@ dependencies:
   - python-gist
   - python-graphviz
   - rasterio
-  - rechunker
   - rio-cogeo
   - rioxarray
   - s3fs>0.5
@@ -120,9 +111,7 @@ dependencies:
   - xgcm
   - xhistogram
   - xmip
-  - xmitgcm
   - xpublish
-  - xrft
   - xskillscore
   - zarr
   - gh-scoped-creds
@@ -142,6 +131,5 @@ dependencies:
   - simplekml
   - scikit-fmm
   - alphashape
-  - getfem
   - tk
   - octave
