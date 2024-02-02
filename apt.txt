@@ -34,3 +34,5 @@ tigervnc-standalone-server
 libtiff5-dev
 libtbb2
 getfem++
+qt5-style-plugins
+websockify

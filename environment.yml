@@ -116,7 +116,6 @@ dependencies:
   - zarr
   - gh-scoped-creds
   - jupyterlab-git
-  - websockify
   - qgis
   - bokeh
   - vtk
