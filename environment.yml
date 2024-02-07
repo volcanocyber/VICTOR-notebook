@@ -53,6 +53,7 @@ dependencies:
   - kerchunk
   - libnetcdf
   - libgfortran-ng
+  - libxcb
   - lxml
   - matplotlib-base
   - metpy
