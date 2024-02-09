@@ -65,7 +65,6 @@ dependencies:
   - numcodecs
   - nodejs
   - numpy
-  - opencv
   - pandas
   - panel
   - parcels
@@ -80,6 +79,7 @@ dependencies:
     - geojsoncontour
     - ngsolve
     - webgui_jupyter_widgets
+    - opencv-python-headless
   - prefect
   - pyarrow
   - pydap

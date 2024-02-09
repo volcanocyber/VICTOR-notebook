@@ -36,5 +36,3 @@ libtbb2
 getfem++
 qt5-style-plugins
 websockify
-libx11-xcb1
-libx11-xcb-dev
