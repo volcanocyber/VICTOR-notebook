@@ -39,4 +39,5 @@ websockify
 libimage-exiftool-perl
 exiv2
 proj-bin
-qt5-default
+qtbase5-dev
+qt5-qmake
