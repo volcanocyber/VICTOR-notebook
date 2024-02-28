@@ -36,3 +36,7 @@ libtbb2
 getfem++
 qt5-style-plugins
 websockify
+libimage-exiftool-perl
+exiv2
+proj-bin
+qt5-default
