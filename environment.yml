@@ -132,3 +132,5 @@ dependencies:
   - alphashape
   - tk
   - octave
+  - leafmap
+  - localtileserver
