@@ -80,6 +80,7 @@ dependencies:
     - ngsolve
     - webgui_jupyter_widgets
     - opencv-python-headless
+    - localtileserver
   - prefect
   - pyarrow
   - pydap
@@ -133,4 +134,3 @@ dependencies:
   - tk
   - octave
   - leafmap
-  - localtileserver
