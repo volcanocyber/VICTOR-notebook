@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Paraview
+Terminal=True
+Exec=/home/jovyan/shared/Scripts/paraview.sh
+Icon=/home/jovyan/shared/Models/Paraview/share/icons/hicolor/96x96/apps/paraview.png
