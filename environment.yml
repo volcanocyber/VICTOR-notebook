@@ -136,3 +136,4 @@ dependencies:
   - leafmap
   - asf_search
   - emcee
+  - openpyxl
