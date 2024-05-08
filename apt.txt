@@ -41,3 +41,4 @@ exiv2
 proj-bin
 qtbase5-dev
 qt5-qmake
+python2
