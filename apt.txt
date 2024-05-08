@@ -42,3 +42,4 @@ proj-bin
 qtbase5-dev
 qt5-qmake
 python2
+libhdf5-dev

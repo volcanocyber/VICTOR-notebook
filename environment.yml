@@ -32,7 +32,6 @@ dependencies:
   - gmt
   - dcw-gmt
   - gshhg-gmt
-  - hdf5
   - h5netcdf
   - h5py
   - holoviews
