@@ -2,7 +2,6 @@ channels:
   - conda-forge
 
 dependencies:
-  - adlfs
   - boto3
   - bottleneck
   - bdw-gc
@@ -61,7 +60,6 @@ dependencies:
   - nbstripout
   - nc-time-axis
   - netcdf4
-  - numcodecs
   - nodejs
   - numpy
   - pandas
