@@ -45,4 +45,4 @@ python2
 libhdf5-dev
 swig3.0
 libpython2-dev
-qhull
+libqhull-dev
