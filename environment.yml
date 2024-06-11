@@ -60,11 +60,9 @@ dependencies:
   - nbstripout
   - nc-time-axis
   - netcdf4
-  - nodejs
   - numpy
   - pandas
   - panel
-  - parcels
   - param!=1.11.0
   - pillow
   - pip
@@ -79,7 +77,6 @@ dependencies:
     - opencv-python-headless
     - localtileserver
   - prefect
-  - pyarrow
   - pydap
   - pygeos
   - pyproj
@@ -131,5 +128,4 @@ dependencies:
   - leafmap
   - asf_search
   - emcee
-  - openpyxl
   - richdem
