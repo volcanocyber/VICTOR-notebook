@@ -24,7 +24,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: Build and push the image to quay.io
-      uses: jupyterhub/repo2docker-action@master
+      uses: yuvipanda/repo2docker-action@conda-tree
       with:
         # Make sure username & password/token pair matches your registry credentials
         DOCKER_USERNAME: ${{ secrets.QUAY_USERNAME }}
