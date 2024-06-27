@@ -76,6 +76,7 @@ dependencies:
     - webgui_jupyter_widgets
     - opencv-python-headless
     - localtileserver
+    - azure-storage-blob
   - prefect
   - pydap
   - pygeos
@@ -129,3 +130,4 @@ dependencies:
   - asf_search
   - emcee
   - richdem
+  - dem_stitcher
