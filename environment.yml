@@ -98,7 +98,6 @@ dependencies:
   - sparse
   - stackstac
   - tiledb-py
-  - timezonefinder
   - xarray
   - xarrayutils
   - xarray_leaflet

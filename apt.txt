@@ -9,7 +9,6 @@ openmpi-bin
 libgdal-dev
 gdal-bin
 grass
-ghostscript
 build-essential
 libgfortran5
 libgl1-mesa-glx
@@ -21,8 +20,6 @@ xfce4-goodies
 xclip
 xsel
 cmake
-libgl1-mesa-dev
-libxt-dev
 libopenmpi-dev
 libtbb-dev
 ninja-build
@@ -45,3 +42,4 @@ python2
 libhdf5-dev
 swig3.0
 libpython2-dev
+libnetcdff-dev
