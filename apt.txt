@@ -9,6 +9,7 @@ openmpi-bin
 libgdal-dev
 gdal-bin
 grass
+ghostscript
 build-essential
 libgfortran5
 libgl1-mesa-glx

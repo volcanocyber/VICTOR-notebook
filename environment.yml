@@ -76,7 +76,7 @@ dependencies:
     - webgui_jupyter_widgets
     - opencv-python-headless
     - localtileserver
-    - azure-storage-blob
+    -
   - prefect
   - pydap
   - pygeos
