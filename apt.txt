@@ -20,6 +20,10 @@ xfce4-goodies
 xclip
 xsel
 cmake
+libgl1-mesa-dev
+xfce4-panel
+xfce4-session
+xfce4-settings
 libxt-dev
 libopenmpi-dev
 libtbb-dev
@@ -29,6 +33,7 @@ libdbus-glib-1-2
 libpci-dev
 software-properties-common
 tigervnc-standalone-server
+tigervnc-xorg-extension
 libtiff5-dev
 libtbb2
 getfem++
@@ -43,3 +48,4 @@ python2
 libhdf5-dev
 swig3.0
 libpython2-dev
+libnetcdff-dev
