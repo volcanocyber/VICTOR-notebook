@@ -55,7 +55,6 @@ dependencies:
   - lxml
   - matplotlib-base
   - metpy
-  - moviepy
   - nb_conda_kernels
   - nbstripout
   - nc-time-axis
