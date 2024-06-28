@@ -20,6 +20,7 @@ xfce4-goodies
 xclip
 xsel
 cmake
+libxt-dev
 libopenmpi-dev
 libtbb-dev
 ninja-build
@@ -42,4 +43,3 @@ python2
 libhdf5-dev
 swig3.0
 libpython2-dev
-libnetcdff-dev
