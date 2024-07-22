@@ -69,7 +69,7 @@ dependencies:
     - cdsapi
     - utm
     - jupyterlab-s3-browser
-    - git+https://github.com/jupyterhub/jupyter-remote-desktop-proxy.git@main
+    - jupyter-remote-desktop-proxy
     - geojsoncontour
     - ngsolve
     - webgui_jupyter_widgets
