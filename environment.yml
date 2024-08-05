@@ -17,9 +17,7 @@ dependencies:
   - eofs
   - erddapy
   - esmpy
-  - flox
   - fsspec
-  - gcm_filters
   - gcsfs
   - gh
   - geocube
@@ -43,7 +41,6 @@ dependencies:
   - ipyleaflet
   - ipython
   - ipympl
-  - ipytree
   - ipywidgets
   - jupyterhub-singleuser
   - jupyter-panel-proxy
@@ -83,7 +80,6 @@ dependencies:
   - pystac
   - pystac-client
   - python-blosc
-  - python-gist
   - python-graphviz
   - rasterio
   - rio-cogeo
@@ -98,7 +94,6 @@ dependencies:
   - stackstac
   - tiledb-py
   - xarray
-  - xarrayutils
   - xarray_leaflet
   - xarray-spatial
   - xesmf
