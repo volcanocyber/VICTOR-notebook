@@ -12,7 +12,6 @@ dependencies:
   - dask-ml
   - dask-labextension
   - datashader
-  - descartes
   - earthaccess
   - eofs
   - erddapy
@@ -72,7 +71,6 @@ dependencies:
     - webgui_jupyter_widgets
     - opencv-python-headless
     - localtileserver
-    - openpyxl
   - prefect
   - pydap
   - pygeos
@@ -94,12 +92,9 @@ dependencies:
   - stackstac
   - tiledb-py
   - xarray
-  - xarray_leaflet
   - xarray-spatial
   - xesmf
   - xgcm
-  - xhistogram
-  - xmip
   - xskillscore
   - zarr
   - gh-scoped-creds
@@ -123,4 +118,4 @@ dependencies:
   - asf_search
   - emcee
   - richdem
-  - dem_stitcher
+  - openpyxl
