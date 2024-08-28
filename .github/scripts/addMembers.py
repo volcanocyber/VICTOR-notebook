@@ -9,9 +9,9 @@ token = os.environ['GITHUB_TOKEN']
 
 def main():
     gc = gspread.service_account()
-    sh = gc.open("VICTOR Registration (Responses)")
+    sh = gc.open_by_key("1KUYomxvwUNAVoZrCvdTeIFm9jKe7l_g1Uv9bDLTH6wQ")
     vals = pd.DataFrame(sh.get_worksheet(0).get_all_records())
-    usernames = vals["What is your GitHub username?"].values
+    usernames = vals["Github Username"].values
     timestamp = vals["Timestamp"].values
     days = []
     for val in timestamp:
