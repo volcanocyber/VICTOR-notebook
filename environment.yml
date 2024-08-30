@@ -120,3 +120,4 @@ dependencies:
   - richdem
   - openpyxl
   - earthengine-api
+  - obspy
