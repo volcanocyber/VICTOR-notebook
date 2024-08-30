@@ -119,3 +119,4 @@ dependencies:
   - emcee
   - richdem
   - openpyxl
+  - earthengine-api

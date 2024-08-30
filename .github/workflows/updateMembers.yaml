@@ -29,12 +29,23 @@ jobs:
         run: |
           python --version
           pip install -r .github/scripts/requirements.txt
-
-      - name: Decrypt Gdrive Service Account Secret
+      - id: 'update_worksheet'
+        uses: jroehl/gsheet.action@release # you can specify '@release' to always have the latest changes
+        with:
+          spreadsheetId: 1KUYomxvwUNAVoZrCvdTeIFm9jKe7l_g1Uv9bDLTH6wQ
+          commands: | # list of commands, specified as a valid JSON string
+            [
+              { "command": "getData", "args": { "range": "A:A,C:C" } }
+            ]
         env:
-          LARGE_SECRET_PASSPHRASE: ${{ secrets.GPG_SECRET }}
+          GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
+          GSHEET_PRIVATE_KEY: ${{ secrets.GSHEET_PRIVATE_KEY }}
+      - name: dump results
+        env:
+          #  the output of the action can be found in ${{ steps.update_worksheet.outputs.results }}
+          RESULTS: ${{ steps.update_worksheet.outputs.results }}
           GITHUB_TOKEN: ${{ github.token }}
+
         run: |
-          cd .github/scripts
-          sh decrypt_secret.sh
+          echo $RESULTS > results.json
           python addMembers.py
