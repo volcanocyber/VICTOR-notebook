@@ -49,3 +49,4 @@ libhdf5-dev
 swig3.0
 libpython2-dev
 libnetcdff-dev
+gsl-bin
