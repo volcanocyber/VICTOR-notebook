@@ -71,6 +71,7 @@ dependencies:
     - webgui_jupyter_widgets
     - opencv-python-headless
     - localtileserver
+    - vmod-geodesy
   - prefect
   - pydap
   - pygeos
@@ -121,3 +122,4 @@ dependencies:
   - openpyxl
   - earthengine-api
   - obspy
+  - corner

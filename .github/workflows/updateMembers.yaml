@@ -35,7 +35,7 @@ jobs:
           spreadsheetId: 1KUYomxvwUNAVoZrCvdTeIFm9jKe7l_g1Uv9bDLTH6wQ
           commands: | # list of commands, specified as a valid JSON string
             [
-              { "command": "getData", "args": { "range": "A:A,C:C", "worksheetTitle": "Form Responses 1" } }
+              { "command": "getData", "args": { "range": "'Form Responses 1'!A:C" } }
             ]
         env:
           GSHEET_CLIENT_EMAIL: ${{ secrets.GSHEET_CLIENT_EMAIL }}
