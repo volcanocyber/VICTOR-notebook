@@ -1,4 +1,2 @@
 #!/bin/bash
-jupyter serverextension enable --py jupyterlab_s3_browser
-jupyter nbextension install --user --py webgui_jupyter_widgets
-jupyter nbextension enable --user --py webgui_jupyter_widgets
+jupyter server extension enable --py jupyterlab_s3_browser

@@ -46,6 +46,7 @@ jobs:
           RESULTS: ${{ steps.update_worksheet.outputs.results }}
           GITHUB_TOKEN: ${{ github.token }}
 
-        run: |
+        run:
+          working-directory: ./scripts
           echo $RESULTS > results.json
           python addMembers.py
