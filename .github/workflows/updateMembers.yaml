@@ -45,8 +45,7 @@ jobs:
           #  the output of the action can be found in ${{ steps.update_worksheet.outputs.results }}
           RESULTS: ${{ steps.update_worksheet.outputs.results }}
           GITHUB_TOKEN: ${{ github.token }}
-
-        run:
-          working-directory: ./scripts
+        working-directory: ./scripts
+        run: |
           echo $RESULTS > results.json
           python addMembers.py
