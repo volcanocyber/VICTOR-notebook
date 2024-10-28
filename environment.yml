@@ -1,125 +1,173 @@
+name: victor
+
 channels:
   - conda-forge
 
 dependencies:
-  - boto3
-  - bottleneck
-  - bdw-gc
-  - cartopy
-  - cfgrib
-  - colorama
-  - dask
-  - dask-ml
-  - dask-labextension
-  - datashader
-  - earthaccess
-  - eofs
-  - erddapy
-  - esmpy
-  - fsspec
-  - gcsfs
+  - jupyterhub-singleuser
+  - nbgitpuller
+  - jupyter-resource-usage
+  - jupyter-syncthing-proxy
+  - syncthing
+  - gh-scoped-creds
   - gh
-  - geocube
-  - geopandas
-  - geopy
+  - git
+
+  # VS Code support
+  - code-server
+  - jupyter-vscode-proxy
+
+  # Jupyter tools
+  - ipywidgets
+  - ipython
+  - itables
+  - jupyter-ai
+  - jupyter-sshd-proxy
+  - jupyterlab-favorites
+  - jupyterlab-git
+  - jupyterlab-h5web
+  - jupyterlab-lsp
+  - jupyterlab-myst
+  - nbdime
+  - nb_conda_kernels
+  - nbstripout
+  - prefect
+  - python-lsp-server
+
+  # Core scientific python stack
+  - cython # optimization, C API access
+  - emcee
+  - lmfit
+  - numba # high-performance numerics
+  - numpy
+  - numexpr
+  - openpyxl
+  - pandas
+  - param
+  - pyarrow
+  - pydap
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - shapely
+  - sparse
+  - xarray
+
+  # Visualization packages
+  - bokeh
+  - cartopy
+  - colorama
+  - corner
+  - datashader
+  - geemap
   - geoviews-core
-  - gfortran
-  - git-lfs
-  - gmt
-  - dcw-gmt
-  - gshhg-gmt
-  - h5netcdf
-  - h5py
   - holoviews
   - hvplot
+  - imageio
+  - ipyleaflet
+  - ipympl
+  - leafmap
+  - lonboard
+  - matplotlib
+  - panel
+  - python-graphviz
+  - seaborn
+  - tiledb-py
+  - tk
+  
+  # Geospatial data packages
+  - alphashape
+  - dcw-gmt
+  - esmpy
+  - geocube
+  - geopandas
+  - gmt
+  - gshhg-gmt
+  - metpy
+  - nc-time-axis
+  - openpiv
+  - pygmt
+  - rasterio
+  - rio-cogeo
+  - rioxarray
+  - satpy
+  - scikit-fmm
+  - simplekml
+  - trimesh
+  - xarray-spatial
+  - xesmf
+
+  # File formats and file management, download, dataset caching
+  - bdw-gc
+  - cfgrib
+  - eofs
+  - erddapy
+  - fsspec
+  - gfortran
+  - h5netcdf
+  - h5py
+  - kerchunk
+  - libgfortran-ng
+  - libnetcdf
+  - libxcb
+  - lxml
+  - nco
+  - netcdf4
+  - octave
+  - zarr
+
+  # Cloud access tools and libraries
+  - awscli
+  - boto3
+  - gcsfs
+  - s3fs
+
+  # handle login and similar details for accessing earthdata protected data
+  - earthaccess
+  - earthengine-api
+  - asf_search
+
+  # Access datasets exposed via STAC
+  - pystac
+  - pystac-client
+  - stackstac
+  
+  # Access datasets exposed via intake catalogs
   - intake
   - intake-esm
   - intake-geopandas
   - intake-stac
   - intake-xarray
-  - ipyleaflet
-  - ipython
-  - ipympl
-  - ipywidgets
-  - jupyterhub-singleuser
-  - jupyter-panel-proxy
-  - jupyter-resource-usage
-  - kerchunk
-  - libnetcdf
-  - libgfortran-ng
-  - libxcb
-  - lxml
-  - matplotlib-base
-  - metpy
-  - nb_conda_kernels
-  - nbstripout
-  - nc-time-axis
-  - netcdf4
-  - numpy
-  - pandas
-  - panel
-  - param!=1.11.0
-  - pillow
+
+  # Distributed computing
+  - dask
+  - dask-labextension
+  - dask-geopandas
+
+  # Other useful generic python packages
+  - pillow # Python imaging library, useful for many image-related tasks
+  - tqdm # progress bars, with notebook support
+
+  # Packages specific to volcanology/seismology
+  - obspy
+  - pyopencl
+  - pyproj
+  - qgis
+  - richdem
+
+  # Not all packages will be available from conda-forge, we install from pip when we need to.
   - pip
   - pip:
+    # Access linux desktop from inside JupyterHub
+    - blosc2
     - cdsapi
-    - utm
-    - jupyterlab-s3-browser
-    - jupyter-remote-desktop-proxy
     - geojsoncontour
-    - ngsolve
-    - webgui_jupyter_widgets
-    - opencv-python-headless
+    - jupyter-remote-desktop-proxy
+    - jupyterlab-s3-browser
     - localtileserver
+    - ngsolve
+    - opencv-python-headless
+    - pyIRoGlass
+    - utm
     - vmod-geodesy
-  - prefect
-  - pydap
-  - pygeos
-  - pyproj
-  - pystac
-  - pystac-client
-  - python-blosc
-  - python-graphviz
-  - rasterio
-  - rio-cogeo
-  - rioxarray
-  - s3fs>0.5
-  - satpy
-  - scikit-image
-  - scikit-learn
-  - scipy
-  - seaborn
-  - sparse
-  - stackstac
-  - tiledb-py
-  - xarray
-  - xarray-spatial
-  - xesmf
-  - xgcm
-  - xskillscore
-  - zarr
-  - gh-scoped-creds
-  - jupyterlab-git
-  - qgis
-  - bokeh
-  - imageio
-  - lmfit
-  - jupyterlab-lsp
-  - python-lsp-server
-  - shapely
-  - numexpr
-  - openpiv
-  - trimesh
-  - simplekml
-  - scikit-fmm
-  - alphashape
-  - tk
-  - octave
-  - leafmap
-  - asf_search
-  - emcee
-  - richdem
-  - openpyxl
-  - earthengine-api
-  - obspy
-  - corner
+    - webgui_jupyter_widgets
