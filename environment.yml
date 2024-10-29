@@ -1,7 +1,6 @@
-name: victor
-
 channels:
   - conda-forge
+  - defaults
 
 dependencies:
   - jupyterhub-singleuser
@@ -42,7 +41,7 @@ dependencies:
   - numpy
   - numexpr
   - openpyxl
-  - pandas
+  - pandas>2.0
   - param
   - pyarrow
   - pydap
@@ -94,7 +93,6 @@ dependencies:
   - scikit-fmm
   - simplekml
   - trimesh
-  - xarray-spatial
   - xesmf
 
   # File formats and file management, download, dataset caching
@@ -171,3 +169,4 @@ dependencies:
     - utm
     - vmod-geodesy
     - webgui_jupyter_widgets
+    - xarray-spatial
