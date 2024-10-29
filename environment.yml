@@ -12,6 +12,24 @@ dependencies:
   - gh
   - git
 
+# Not all packages will be available from conda-forge, we install from pip when we need to.
+  - pip
+  - pip:
+    # Access linux desktop from inside JupyterHub
+    - blosc2
+    - cdsapi
+    - geojsoncontour
+    - jupyter-remote-desktop-proxy
+    - jupyterlab-s3-browser
+    - localtileserver
+    - ngsolve
+    - opencv-python-headless
+    - pyIRoGlass
+    - utm
+    - vmod-geodesy
+    - webgui_jupyter_widgets
+    - xarray-spatial
+
   # VS Code support
   - code-server
   - jupyter-vscode-proxy
@@ -152,21 +170,3 @@ dependencies:
   - pyproj
   - qgis
   - richdem
-
-  # Not all packages will be available from conda-forge, we install from pip when we need to.
-  - pip
-  - pip:
-    # Access linux desktop from inside JupyterHub
-    - blosc2
-    - cdsapi
-    - geojsoncontour
-    - jupyter-remote-desktop-proxy
-    - jupyterlab-s3-browser
-    - localtileserver
-    - ngsolve
-    - opencv-python-headless
-    - pyIRoGlass
-    - utm
-    - vmod-geodesy
-    - webgui_jupyter_widgets
-    - xarray-spatial
