@@ -1,3 +1,2 @@
 #!/bin/bash
 jupyter server extension enable --py jupyterlab_s3_browser
-pip install vmod-geodesy
