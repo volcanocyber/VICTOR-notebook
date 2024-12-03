@@ -11,6 +11,8 @@ dependencies:
   - gh-scoped-creds
   - gh
   - git
+  - cmake
+  - gxx_linux-64
 
   # VS Code support
   - code-server
