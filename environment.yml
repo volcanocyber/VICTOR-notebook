@@ -13,6 +13,8 @@ dependencies:
   - git
   - cmake
   - gxx_linux-64
+  - openjdk
+  - bison
 
   # VS Code support
   - code-server
