@@ -13,7 +13,6 @@ dependencies:
   - git
   - cmake
   - gxx_linux-64
-  - openjdk
 
   # VS Code support
   - code-server
@@ -172,3 +171,4 @@ dependencies:
     - pyIRoGlass
     - utm
     - webgui_jupyter_widgets
+    - pyvolcans
