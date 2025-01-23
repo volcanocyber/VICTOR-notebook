@@ -171,3 +171,4 @@ dependencies:
     - pyIRoGlass
     - utm
     - webgui_jupyter_widgets
+    - Thermobar
