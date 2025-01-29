@@ -50,3 +50,6 @@ swig3.0
 libpython2-dev
 libnetcdff-dev
 gsl-bin
+gnuplot
+eccodes
+lapack
