@@ -52,4 +52,3 @@ libnetcdff-dev
 gsl-bin
 gnuplot
 libeccodes-dev
-liblapack-dev
