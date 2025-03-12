@@ -104,6 +104,7 @@ dependencies:
   - bdw-gc
   - catch2
   - cfgrib
+  - cpp-argparse
   - eofs
   - erddapy
   - fsspec
