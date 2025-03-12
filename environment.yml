@@ -102,6 +102,7 @@ dependencies:
 
   # File formats and file management, download, dataset caching
   - bdw-gc
+  - catch2
   - cfgrib
   - eofs
   - erddapy
@@ -117,6 +118,8 @@ dependencies:
   - nco
   - netcdf4
   - octave
+  - xtensor
+  - xtensor-blas
   - zarr
 
   # Cloud access tools and libraries
@@ -174,3 +177,5 @@ dependencies:
     - webgui_jupyter_widgets
     - Thermobar
     - pyvolcans
+    - DiadFit
+    - meson
