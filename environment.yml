@@ -118,6 +118,7 @@ dependencies:
   - lxml
   - nco
   - netcdf4
+  - nlopt
   - octave
   - xtensor
   - xtensor-blas
