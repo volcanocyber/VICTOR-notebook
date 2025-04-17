@@ -60,6 +60,7 @@ dependencies:
   # Visualization packages
   - bokeh
   - cartopy
+  - cmcrameri
   - colorama
   - corner
   - datashader
@@ -134,6 +135,8 @@ dependencies:
   - earthaccess
   - earthengine-api
   - asf_search
+  - eofetch
+  - harp
 
   # Access datasets exposed via STAC
   - pystac
