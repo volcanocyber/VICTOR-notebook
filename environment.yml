@@ -58,6 +58,7 @@ dependencies:
 
 
   # Visualization packages
+  - basemap
   - bokeh
   - cartopy
   - cmcrameri

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Matlab
+Comment=
+Exec=matlab
+Icon=/home/jovyan/shared/Libraries/R2024b/Matlab_Logo.png
