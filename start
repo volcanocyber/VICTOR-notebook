@@ -9,7 +9,6 @@ cp $REPO_DIR/*.desktop $HOME/Desktop/
 # Set any environment variables here
 # These are inherited by all processes, *except* RStudio{
 export PATH=${PATH}:/home/jovyan/shared/Models/Executables
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:home/jovyan/shared/Libraries/Matlab2024/R2024b/runtime/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/os/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/extern/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/opengl/lib/glnxa64
 
 # Tell applications where to open desktop apps - this allows notebooks to
 # pop open GUIs
