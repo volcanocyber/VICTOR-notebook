@@ -8,8 +8,9 @@ cp $REPO_DIR/*.desktop $HOME/Desktop/
 
 # Set any environment variables here
 # These are inherited by all processes, *except* RStudio{
-export PATH=${PATH}:/home/jovyan/shared/Models/Executables
-
+export PATH=${PATH}:/home/jovyan/shared/Models/Executables:/home/jovyan/shared/Libraries/demcoreg/demcoreg
+export CLAW=/home/jovyan/shared/Models/clawpack
+export PYTHONPATH=${PYTHONPATH}:/home/jovyan/shared/Models/clawpack
 # Tell applications where to open desktop apps - this allows notebooks to
 # pop open GUIs
 export DISPLAY=":1.0"
