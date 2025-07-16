@@ -185,3 +185,4 @@ dependencies:
     - DiadFit
     - meson
     - VolFe
+    - pyMelt
