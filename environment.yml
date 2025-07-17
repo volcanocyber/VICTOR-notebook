@@ -83,6 +83,7 @@ dependencies:
   # Geospatial data packages
   - alphashape
   - dcw-gmt
+  - earthpy
   - esmpy
   - geocube
   - geopandas
