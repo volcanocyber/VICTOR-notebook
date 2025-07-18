@@ -187,3 +187,4 @@ dependencies:
     - meson
     - VolFe
     - pyMelt
+    - VESIcal
