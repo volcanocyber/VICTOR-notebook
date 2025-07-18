@@ -185,6 +185,6 @@ dependencies:
     - pyvolcans
     - DiadFit
     - meson
-    - VolFe
+    - VolFe==1.0
     - pyMelt
     - VESIcal
