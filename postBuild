@@ -1,3 +1,4 @@
 #!/bin/bash
 jupyter server extension enable --py jupyterlab_s3_browser
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:home/jovyan/shared/Libraries/Matlab2024/R2024b/runtime/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/os/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/extern/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/opengl/lib/glnxa64
+export PYTHONPATH=${PYTHONPATH}:/home/jovyan/shared/Models/clawpack:/home/jovyan/shared/Models/clawpack/src:/home/jovyan/shared/Models/clawpack/src/python:/home/jovyan/shared/Libraries
