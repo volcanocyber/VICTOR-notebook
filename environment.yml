@@ -178,7 +178,7 @@ dependencies:
     - localtileserver
     - ngsolve
     - opencv-python-headless
-    - pyIRoGlass==0.6.5
+    - pyIRoGlass>0.6.4
     - utm
     - webgui_jupyter_widgets
     - Thermobar
