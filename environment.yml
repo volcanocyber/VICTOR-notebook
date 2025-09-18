@@ -41,7 +41,7 @@ dependencies:
   - emcee
   - lmfit
   - numba # high-performance numerics
-  - numpy
+  - numpy>=2
   - numexpr
   - openpyxl
   - pandas>2.0
