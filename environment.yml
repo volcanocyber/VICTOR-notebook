@@ -39,7 +39,6 @@ dependencies:
   # Core scientific python stack
   - cython # optimization, C API access
   - emcee
-  - hankel
   - lmfit
   - numba # high-performance numerics
   - numpy
@@ -189,3 +188,4 @@ dependencies:
     - VolFe==1.0
     - pyMelt
     - VESIcal
+    - hankel
