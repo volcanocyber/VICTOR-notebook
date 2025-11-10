@@ -39,9 +39,10 @@ dependencies:
   # Core scientific python stack
   - cython # optimization, C API access
   - emcee
+  - hankel
   - lmfit
   - numba # high-performance numerics
-  - numpy>=2
+  - numpy
   - numexpr
   - openpyxl
   - pandas>2.0
@@ -178,7 +179,7 @@ dependencies:
     - localtileserver
     - ngsolve
     - opencv-python-headless
-    - pyIRoGlass>0.6.4
+    - pyIRoGlass
     - utm
     - webgui_jupyter_widgets
     - Thermobar
