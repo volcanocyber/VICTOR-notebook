@@ -143,13 +143,6 @@ dependencies:
   - pystac
   - pystac-client
   - stackstac
-  
-  # Access datasets exposed via intake catalogs
-  - intake
-  - intake-esm
-  - intake-geopandas
-  - intake-stac
-  - intake-xarray
 
   # Distributed computing
   - dask
