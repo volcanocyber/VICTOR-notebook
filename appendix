@@ -1,6 +1,9 @@
 # Ensure we run micromamba tweaks as root (repo2docker uses root at this stage)
 USER root
 
+# Wipe the existing environment so that `mamba env update` becomes a clean install
+RUN rm -rf ${NB_PYTHON_PREFIX}/*
+
 # Avoid slow .zst metadata that causes timeouts
 ENV MAMBA_REPODATA_FN=repodata.json
 
