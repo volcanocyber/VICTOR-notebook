@@ -1,0 +1,17 @@
+name: env-cloud
+channels:
+  - conda-forge
+dependencies:
+  - awscli
+  - boto3
+  - gcsfs
+  - s3fs
+
+  - earthaccess
+  - earthengine-api
+  - asf_search
+  - eofetch
+  - harp
+  - pystac
+  - pystac-client
+  - stackstac

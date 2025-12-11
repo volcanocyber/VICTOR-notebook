@@ -1,34 +1,6 @@
 # Ensure we run micromamba tweaks as root (repo2docker uses root at this stage)
 USER root
 
-# Wipe the existing environment so that `mamba env update` becomes a clean install
-RUN rm -rf ${NB_PYTHON_PREFIX}/*
-
-# Avoid slow .zst metadata that causes timeouts
-ENV MAMBA_REPODATA_FN=repodata.json
-
-# Increase retry count + timeout to survive GitHub Actions + repo2docker limits
-ENV MAMBA_REMOTE_MAX_RETRIES=10
-ENV MAMBA_DOWNLOAD_TIMEOUT=300
-ENV MAMBA_NO_BULLET=1
-
-# Use fast global conda-forge mirrors
-RUN micromamba config append custom_channels conda-forge=https://repo.mamba.pm/conda-forge && \
-    micromamba config append custom_channels conda-forge=https://conda.anaconda.org/conda-forge && \
-    micromamba config append custom_channels conda-forge=https://cdn.conda.io/conda-forge
-
-# Ensure conda-forge is highest priority
-RUN micromamba config prepend channels conda-forge && \
-    micromamba config append channels defaults
-
-# Pre-download repodata manually, bypass slow libcurl inside micromamba
-RUN curl -L https://repo.mamba.pm/conda-forge/linux-64/repodata.json -o /tmp/repodata-linux.json && \
-    curl -L https://repo.mamba.pm/conda-forge/noarch/repodata.json -o /tmp/repodata-noarch.json
-
-# ------------------------------------------------------------------------------
-# Your existing Firefox install (kept exactly as-is)
-# ------------------------------------------------------------------------------
-
 RUN cp ${REPO_DIR}/mozilla-firefox.apt.preferences /etc/apt/preferences.d/mozilla-firefox
 
 RUN add-apt-repository ppa:mozillateam/ppa \

@@ -1,0 +1,55 @@
+name: env-core
+channels:
+  - conda-forge
+dependencies:
+  # Jupyter
+  - jupyterhub-singleuser
+  - nbgitpuller
+  - jupyter-resource-usage
+  - jupyterlab
+  - ipywidgets
+  - ipython
+  - nb_conda_kernels
+  - nbstripout
+  - jupyterlab-git
+  - jupyterlab-favorites
+  - jupyterlab-lsp
+  - jupyterlab-myst
+  - jupyterlab-h5web
+  - jupyter-ai
+  - jupyter-sshd-proxy
+
+  # Core language + build tools
+  - python=3.11
+  - pip
+  - cmake
+  - gxx_linux-64
+  - openjdk
+
+  # General scientific python stack
+  - numpy
+  - scipy
+  - pandas>2.0
+  - xarray
+  - numexpr
+  - param
+  - cython
+  - numba
+  - pyarrow
+  - pydap
+  - sparse
+  - h5py
+  - h5netcdf
+  - zarr
+  - fsspec
+
+  # Jupyter extensions (misc)
+  - itables
+  - nbdime
+  - python-lsp-server
+  - prefect
+
+  # Misc utilities
+  - colorama
+  - tqdm
+  - pillow

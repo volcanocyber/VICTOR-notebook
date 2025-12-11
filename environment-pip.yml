@@ -1,0 +1,24 @@
+name: env-pip
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - pip:
+      - blosc2
+      - cdsapi
+      - jupyter-remote-desktop-proxy
+      - jupyterlab-s3-browser
+      - localtileserver
+      - ngsolve
+      - opencv-python-headless
+      - pyIRoGlass
+      - utm
+      - webgui_jupyter_widgets
+      - Thermobar
+      - pyvolcans
+      - DiadFit
+      - meson
+      - VolFe==1.0
+      - pyMelt
+      - VESIcal
+      - hankel

@@ -1,0 +1,60 @@
+name: env-geo
+channels:
+  - conda-forge
+dependencies:
+  # Core geospatial stack (heavy!)
+  - gdal
+  - rasterio
+  - rioxarray
+  - rio-cogeo
+  - pyproj
+  - shapely
+  - geopandas
+  - cartopy
+  - geocube
+  - sdf
+  - metpy
+  - nc-time-axis
+  - xesmf
+  - esmpy
+  - scikit-fmm
+  - satpy
+
+  # GMT, PyGMT & coastline data
+  - gmt
+  - pygmt
+  - dcw-gmt
+  - gshhg-gmt
+
+  # Mesh & geometry
+  - trimesh
+  - alphashape
+
+  # Specialized packages
+  - openpiv
+  - simplekml
+  - earthpy
+  - geemap
+  - geoviews-core
+  - lonboard
+  - leafmap
+  - ipyleaflet
+  - ipympl
+
+  # NetCDF + GRIB
+  - netcdf4
+  - libnetcdf
+  - cfgrib
+
+  # Climate data
+  - eofs
+  - erddapy
+
+  # Fortran deps
+  - gfortran
+  - libgfortran-ng
+  - obspy
+  - pyopencl
+  - richdem
+  - qgis
+

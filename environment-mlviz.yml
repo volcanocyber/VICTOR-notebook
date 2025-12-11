@@ -1,0 +1,22 @@
+name: env-ml
+channels:
+  - conda-forge
+dependencies:
+  # ML & stats
+  - scikit-learn
+  - emcee
+  - lmfit
+
+  # Visualization
+  - matplotlib
+  - seaborn
+  - bokeh
+  - panel
+  - holoviews
+  - hvplot
+  - datashader
+  - corner
+  - cmcrameri
+  - imageio
+  - python-graphviz
+  - tk
