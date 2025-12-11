@@ -4,6 +4,8 @@ set -e
 PREFIX=$CONDA_DIR  # usually /opt/conda
 
 # Install conda-locked layers
+grep -v "^\s*$" conda-linux-64.lock > cleaned.lock
+mv cleaned.lock conda-linux-64.lock
 mamba install -p "${NB_PYTHON_PREFIX}" --yes --file conda-linux-64.lock
 # Install pip packages separately (no lockfile, no solver)
 pip install -r <(awk '/^- /{print substr($0,3)}' environment-pip.yml | tail -n +2)
