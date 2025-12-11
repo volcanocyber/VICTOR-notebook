@@ -4,13 +4,11 @@ set -e
 PREFIX=$CONDA_DIR  # usually /opt/conda
 
 # Install conda-locked layers
-mamba install -y -p $PREFIX --file env-core-linux-64.lock
-mamba install -y -p $PREFIX --file env-mlviz-linux-64.lock
-mamba install -y -p $PREFIX --file env-geo-linux-64.lock
-mamba install -y -p $PREFIX --file env-cloud-linux-64.lock
-
+mamba install -p "${NB_PYTHON_PREFIX}" --yes --file conda-linux-64.lock
 # Install pip packages separately (no lockfile, no solver)
 pip install -r <(awk '/^- /{print substr($0,3)}' environment-pip.yml | tail -n +2)
+
+mamba clean --all --yes
 
 jupyter server extension enable --py jupyterlab_s3_browser
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:home/jovyan/shared/Libraries/Matlab2024/R2024b/runtime/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/os/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/extern/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/opengl/lib/glnxa64
