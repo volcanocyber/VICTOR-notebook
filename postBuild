@@ -5,10 +5,9 @@ PREFIX=$CONDA_DIR  # usually /opt/conda
 
 # Install conda-locked layers
 mamba install -y -p $PREFIX --file env-core-linux-64.lock
-mamba install -y -p $PREFIX --file env-ml-linux-64.lock
+mamba install -y -p $PREFIX --file env-mlviz-linux-64.lock
 mamba install -y -p $PREFIX --file env-geo-linux-64.lock
 mamba install -y -p $PREFIX --file env-cloud-linux-64.lock
-mamba install -y -p $PREFIX --file env-volcano-linux-64.lock
 
 # Install pip packages separately (no lockfile, no solver)
 pip install -r <(awk '/^- /{print substr($0,3)}' environment-pip.yml | tail -n +2)
