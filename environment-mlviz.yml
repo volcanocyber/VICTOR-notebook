@@ -6,6 +6,8 @@ dependencies:
   - scikit-learn
   - emcee
   - lmfit
+  - xtensor<=0.25.0
+  - xtensor-blas
 
   # Visualization
   - matplotlib

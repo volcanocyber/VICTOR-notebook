@@ -25,6 +25,14 @@ dependencies:
   - cmake
   - gxx_linux-64
   - openjdk
+  - pkg-config
+  - cpp-argparse
+  - cppcheck
+  - cpplint
+  - clang-format
+  - tomlplusplus
+  - catch2
+  - towncrier
 
   # General scientific python stack
   - numpy
