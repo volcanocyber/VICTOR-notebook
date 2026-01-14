@@ -40,6 +40,7 @@ dependencies:
   - leafmap
   - ipyleaflet
   - ipympl
+  - hankel
 
   # NetCDF + GRIB
   - netcdf4
