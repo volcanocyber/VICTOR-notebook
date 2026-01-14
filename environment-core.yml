@@ -29,6 +29,7 @@ dependencies:
   - cpp-argparse
   - cppcheck
   - cpplint
+  - meson
   - clang-format
   - tomlplusplus
   - catch2

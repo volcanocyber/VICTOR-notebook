@@ -11,9 +11,8 @@ mv cleaned.lock conda-linux-64.lock
 mamba create -p "${NB_PYTHON_PREFIX}" --yes --file conda-linux-64.lock
 
 # pip packages
-pip install -r requirements.txt
-echo "=== Installed pip packages ==="
-pip list | grep -i -E "blosc2|thermobar|pymelt|vesical"
+pip install --no-cache-dir -r requirements.txt
+
 
 mamba clean --all --yes
 
