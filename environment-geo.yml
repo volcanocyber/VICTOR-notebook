@@ -12,6 +12,7 @@ dependencies:
   - geopandas
   - cartopy
   - geocube
+  - intake
   - sdf
   - metpy
   - nc-time-axis
