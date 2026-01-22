@@ -19,6 +19,7 @@ dependencies:
   - esmpy
   - scikit-fmm
   - satpy
+  - xarray-spatial
 
   # GMT, PyGMT & coastline data
   - gmt
