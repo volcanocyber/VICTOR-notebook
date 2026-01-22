@@ -8,7 +8,7 @@ dependencies:
   - emcee
   - lmfit
   - mpmath
-  - opencv
+  - opencv-python
   - xtensor<=0.25.0
   - xtensor-blas
 
