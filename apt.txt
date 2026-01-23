@@ -30,7 +30,7 @@ libopenmpi-dev
 libtbb-dev
 ninja-build
 libasound2t64
-libdbus-glib-1-2t64
+libdbus-glib-1-2
 libpci-dev
 software-properties-common
 tigervnc-standalone-server
@@ -44,10 +44,8 @@ exiv2
 proj-bin
 qtbase5-dev
 qt5-qmake
-python2
 libhdf5-dev
 swig
-libpython2-dev
 libnetcdff-dev
 gsl-bin
 gnuplot
