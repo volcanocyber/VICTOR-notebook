@@ -3,12 +3,11 @@ channels:
   - conda-forge
 dependencies:
   # ML & stats
-  - blosc2
+  - python-blosc2
   - scikit-learn
   - emcee
   - lmfit
   - mpmath
-  - opencv-python
   - xtensor<=0.25.0
   - xtensor-blas
 
