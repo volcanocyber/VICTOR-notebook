@@ -12,7 +12,7 @@ grass
 ghostscript
 build-essential
 libgfortran5
-libgl1-mesa-glx
+libgl1
 dbus-x11
 xorg
 xubuntu-icon-theme
@@ -29,14 +29,14 @@ libxt-dev
 libopenmpi-dev
 libtbb-dev
 ninja-build
-libasound2
-libdbus-glib-1-2
+libasound2t64
+libdbus-glib-1-2t64
 libpci-dev
 software-properties-common
 tigervnc-standalone-server
 tigervnc-xorg-extension
-libtiff5-dev
-libtbb2
+libtiff-dev
+libtbb12
 getfem++
 websockify
 libimage-exiftool-perl
@@ -46,7 +46,7 @@ qtbase5-dev
 qt5-qmake
 python2
 libhdf5-dev
-swig3.0
+swig
 libpython2-dev
 libnetcdff-dev
 gsl-bin
