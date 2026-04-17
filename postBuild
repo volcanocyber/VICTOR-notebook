@@ -12,7 +12,7 @@ mamba create -p "${NB_PYTHON_PREFIX}" --yes --file conda-linux-64.lock
 
 # pip packages
 pip install --no-cache-dir -r requirements.txt
-pip install --no-cache-dir --no-deps -r requirements-nodeps.txt
+pip install --no-cache-dir --no-deps -r requirements-nodep.txt
 
 mamba clean --all --yes
 
