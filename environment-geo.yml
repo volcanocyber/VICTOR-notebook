@@ -61,3 +61,13 @@ dependencies:
   - richdem
   - qgis
 
+  - earthaccess
+  - earthengine-api
+  - asf_search
+  - pystac-client
+  - eofetch
+  - harp
+  - stackstac
+  - boto3
+  - gcsfs
+  - s3fs

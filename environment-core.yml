@@ -18,9 +18,10 @@ dependencies:
   - jupyterlab-h5web
   - jupyter-ai
   - jupyter-sshd-proxy
+  - jupyter-vscode-proxy
 
   # Core language + build tools
-  - python=3.11
+  - "python >=3.12"
   - pip
   - cmake
   - gxx_linux-64
@@ -38,7 +39,7 @@ dependencies:
   # General scientific python stack
   - numpy
   - scipy
-  - pandas>2.0
+  - "pandas >=2.0"
   - xarray
   - numexpr
   - param

@@ -8,7 +8,7 @@ dependencies:
   - emcee
   - lmfit
   - mpmath
-  - xtensor<=0.25.0
+  - "xtensor <=0.25.0"
   - xtensor-blas
 
   # Visualization
