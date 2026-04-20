@@ -6,3 +6,4 @@ VolFe==1.0
 pyMelt
 VESIcal
 mineralML
+stackstac
