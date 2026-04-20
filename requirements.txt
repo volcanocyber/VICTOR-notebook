@@ -2,3 +2,8 @@ cdsapi
 jupyter-remote-desktop-proxy
 localtileserver
 awscli
+ngsolve
+webgui_jupyter_widgets
+VESIcal
+mineralML
+opencv-python

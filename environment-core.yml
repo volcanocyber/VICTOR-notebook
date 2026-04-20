@@ -52,6 +52,8 @@ dependencies:
   - h5netcdf
   - zarr
   - fsspec
+  - mkl
+  - mc3
 
   # Jupyter extensions (misc)
   - itables

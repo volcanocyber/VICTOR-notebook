@@ -24,3 +24,5 @@ dependencies:
   - imageio
   - python-graphviz
   - tk
+
+  - pymatreader
