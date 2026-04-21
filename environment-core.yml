@@ -52,8 +52,8 @@ dependencies:
   - h5netcdf
   - zarr
   - fsspec
-  - mkl
-  - mc3
+  - nomkl
+  - blas=*=openblas  # pin explicitly  - mc3
 
   # Jupyter extensions (misc)
   - itables
