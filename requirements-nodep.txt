@@ -5,3 +5,4 @@ DiadFit
 VolFe==1.0
 pyMelt
 stackstac
+mineralML

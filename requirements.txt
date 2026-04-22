@@ -4,5 +4,4 @@ localtileserver
 awscli
 webgui_jupyter_widgets
 VESIcal
-mineralML
 opencv-python-headless
