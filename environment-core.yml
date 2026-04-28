@@ -35,6 +35,7 @@ dependencies:
   - tomlplusplus
   - catch2
   - towncrier
+  - openssh
 
   # General scientific python stack
   - numpy

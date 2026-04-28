@@ -13,8 +13,11 @@ This GitHub action builds a Docker image using the contents of this repo and pus
 
 ### The environment
 
-It provides an example of a `environment.yml` conda configuration file for repo2docker to use.
-This file can be used to list all the conda packages that need to be installed by `repo2docker` in your environment.
+The repository defines several `environment.yml` files. These are compiled into a single-platform lockfile with `conda-lock`, e.g.
+```shell
+conda-lock -f ./environment-core.yml -f ./environment-geo.yml -f ./environment-mlviz.yml -p linux-64 -k explicit
+```
+
 The `repo2docker-action` will update the [base repo2docker](https://github.com/jupyterhub/repo2docker/blob/HEAD/repo2docker/buildpacks/conda/environment.yml) conda environment with the packages listed in this `environment.yml` file.
 
 **Note:**
