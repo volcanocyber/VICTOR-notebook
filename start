@@ -13,4 +13,7 @@ export CLAW=/home/jovyan/shared/Models/clawpack
 # Tell applications where to open desktop apps - this allows notebooks to
 # pop open GUIs
 export DISPLAY=":1.0"
+grep -qxF 'echo "When reporting any research conducted on VICTOR, please cite both our paper (https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/393) and the model(s) being utilized."' ~/.bashrc || \
+echo 'echo "When reporting any research conducted on VICTOR, please cite both our paper (https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/393) and the model(s) being utilized."' >> ~/.bashrc
+
 exec "$@"
