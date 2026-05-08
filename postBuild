@@ -18,4 +18,5 @@ mamba clean --all --yes
 
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/jovyan/shared/Libraries/Matlab2024/R2024b/runtime/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/os/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/extern/bin/glnxa64:/home/jovyan/shared/Libraries/Matlab2024/R2024b/sys/opengl/lib/glnxa64
 export PYTHONPATH=${PYTHONPATH}:/home/jovyan/shared/Models/clawpack:/home/jovyan/shared/Models/clawpack/src:/home/jovyan/shared/Models/clawpack/src/python:/home/jovyan/shared/Libraries
-echo 'echo "When reporting any research conducted on VICTOR, please cite both our paper (https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/393) and the model(s) being utilized."' >> /etc/bash.bashrc
+grep -qxF 'echo "When reporting any research conducted on VICTOR, please cite both our paper (https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/393) and the model(s) being utilized."' /home/jovyan/.bashrc || \
+echo 'echo "When reporting any research conducted on VICTOR, please cite both our paper (https://www.jvolcanica.org/ojs/index.php/volcanica/article/view/393) and the model(s) being utilized."' >> /home/jovyan/.bashrc
