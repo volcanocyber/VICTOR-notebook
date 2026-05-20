@@ -61,6 +61,7 @@ dependencies:
   - nbdime
   - python-lsp-server
   - prefect
+  - code-server
 
   # Misc utilities
   - colorama
