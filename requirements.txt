@@ -5,3 +5,4 @@ awscli
 webgui_jupyter_widgets
 VESIcal
 opencv-python-headless
+utm
