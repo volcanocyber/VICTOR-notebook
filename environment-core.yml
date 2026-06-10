@@ -16,7 +16,6 @@ dependencies:
   - jupyterlab-lsp
   - jupyterlab-myst
   - jupyterlab-h5web
-  - jupyter-ai
   - jupyter-sshd-proxy
   - jupyter-vscode-proxy
 
@@ -36,6 +35,7 @@ dependencies:
   - catch2
   - towncrier
   - openssh
+  - r-base
 
   # General scientific python stack
   - numpy
