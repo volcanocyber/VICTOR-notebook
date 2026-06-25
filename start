@@ -8,7 +8,7 @@ cp $REPO_DIR/*.desktop $HOME/Desktop/
 
 # Set any environment variables here
 # These are inherited by all processes, *except* RStudio{
-export PATH=${PATH}:/home/jovyan/shared/Models/Executables:/home/jovyan/shared/Libraries/demcoreg/demcoreg
+export PATH=${PATH}:/home/jovyan/shared/Models/Executables:/home/jovyan/shared/Libraries/demcoreg/demcoreg:home/jovyan/shared-readwrite/Libraries/TauDEM/build/release/src:
 export CLAW=/home/jovyan/shared/Models/clawpack
 export JULIA_DEPOT_PATH=/home/jovyan/shared/Libraries/julia-1.11.4/depot
 export JULIA_PROJECT=home/jovyan/shared/Libraries/julia-1.11.4/environments/v1.11

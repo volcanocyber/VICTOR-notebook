@@ -36,6 +36,7 @@ dependencies:
   - towncrier
   - openssh
   - r-base
+  - yaml-cpp
 
   # General scientific python stack
   - numpy
